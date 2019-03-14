@@ -101,6 +101,9 @@ describe "#hit?" do
 
 end
 
+# The following makes no sense at all. Will fcomment out, and come back when I think I can understamnd it.
+# the code I have written works ..... so .....
+
 #describe "#runner" do
 #
 #  before(:each) do
