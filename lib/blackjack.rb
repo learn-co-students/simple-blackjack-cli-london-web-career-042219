@@ -1,4 +1,3 @@
-
 def welcome
     puts "Welcome to the Blackjack Table"
 end
@@ -34,12 +33,12 @@ def initial_round
 end
 
 def hit?(current_total)
-  new_total = 0
+  new_total = current_total
   prompt_user
   input = get_user_input
   if input == 'h'
     new_total = current_total + deal_card
-  elsif
+  elsif input == 's'
     new_total = current_total
   else
     invalid_command
